@@ -12,7 +12,7 @@ export default function Navbar() {
     navigate('/');
   };
 
-  return (
+  return ( 
     <nav className='navbar' style={{ display: 'flex', gap: '20px', padding: '10px', background: '#f0f0f0' }}>
       {!user ? (
         <>
@@ -27,6 +27,7 @@ export default function Navbar() {
             <>
               <Link to="/product">Products</Link>
               <Link to="/stockin">Stock In</Link>
+              <Link to='/signup'>Add Worker</Link>
             </>
           )}
 

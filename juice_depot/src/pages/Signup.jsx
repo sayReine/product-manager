@@ -21,6 +21,9 @@ function Signup() {
     }
   };
 
+  const user = localStorage.getItem('user');
+
+
   return (
     <form className='signup-form' onSubmit={handleSignup}>
       <h2>Signup</h2>
@@ -28,8 +31,9 @@ function Signup() {
       <input type="password" placeholder="Password" onChange={e => setFormData({ ...formData, password: e.target.value })} required/>
       <select placeholder="User Type" onChange={e => setFormData({ ...formData, usertype: e.target.value })} required>
         <option>select user type</option>
-        <option>Owner</option>
-        <option>Worker</option>
+        {!user ? (<option>Owner</option>) : (<option>Worker</option>)}
+        {/* <option>Owner</option>
+        <option>Worker</option> */}
       </select>
       <button type="submit">Signup</button>
     </form>
