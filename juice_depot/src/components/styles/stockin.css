@@ -1,0 +1,97 @@
+.stock-container {
+  background-color: #000;
+  color: #ff69b4;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #ff69b4;
+  max-width: 500px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.stock-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ff69b4;
+}
+
+.stock-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.stock-container select,
+.stock-container input {
+  padding: 10px;
+  background-color: #111;
+  border: 1px solid #ff69b4;
+  color: #ff69b4;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.stock-container select option {
+  background-color: #111;
+  color: #ff69b4;
+}
+
+.stock-container button {
+  padding: 10px;
+  background-color: #ff69b4;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.stock-container button:hover {
+  background-color: #ff85c1;
+}
+
+.stock-container {
+  background-color: #000;
+  color: #ff69b4;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #ff69b4;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.stock-container h2 {
+  color: #ff69b4;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.stock-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #111;
+  color: #ff69b4;
+  font-size: 14px;
+  border: 1px solid #ff69b4;
+}
+
+.stock-container th,
+.stock-container td {
+  border: 1px solid #ff69b4;
+  padding: 10px;
+}
+
+.stock-container th {
+  background-color: #1a1a1a;
+  font-weight: bold;
+}
+
+.stock-container tr:nth-child(even) {
+  background-color: #1f1f1f;
+}
+
+.stock-container tr:hover {
+  background-color: #2c2c2c;
+}
