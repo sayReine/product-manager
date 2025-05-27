@@ -1,0 +1,107 @@
+.product-form-container {
+  background-color: #000;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #ff69b4;
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-form input {
+  padding: 10px;
+  border: 1px solid #ff69b4;
+  background-color: #111;
+  color: #ff69b4;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.product-form input::placeholder {
+  color: #ffb6c1;
+}
+
+.product-form button {
+  padding: 10px;
+  background-color: #ff69b4;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.product-form button:hover {
+  background-color: #ff85c1;
+}
+
+
+.product-table-container {
+  background-color: #000;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #ff69b4;
+  margin: 40px auto;
+  max-width: 1000px;
+  overflow-x: auto;
+  color: #ff69b4;
+}
+
+.product-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #111;
+  color: #ff69b4;
+  font-size: 14px;
+}
+
+.product-table-container th,
+.product-table-container td {
+  border: 1px solid #ff69b4;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-table-container th {
+  background-color: #1a1a1a;
+  font-weight: bold;
+}
+
+.product-table-container tr:nth-child(even) {
+  background-color: #1f1f1f;
+}
+
+.product-table-container tr:hover {
+  background-color: #2c2c2c;
+}
+
+.product-table-container input[type="text"],
+.product-table-container input[type="number"] {
+  padding: 6px;
+  border: 1px solid #ff69b4;
+  background-color: #111;
+  color: #ff69b4;
+  border-radius: 6px;
+  width: 90%;
+}
+
+.product-table-container button {
+  background-color: #ff69b4;
+  color: #000;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.product-table-container button:hover {
+  background-color: #ff85c1;
+}
